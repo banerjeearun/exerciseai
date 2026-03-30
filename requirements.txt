@@ -1,1 +1,7 @@
+fastapi
+uvicorn
 psycopg2-binary
+anthropic
+sentence-transformers
+numpy
+python-dotenv

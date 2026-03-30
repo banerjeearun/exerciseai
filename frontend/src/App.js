@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = window.location.hostname === "localhost" 
+    ? "http://localhost:8000" 
+    : "";
 
 // ============ Onboarding Form ============
 function OnboardingForm({ context, setContext }) {
